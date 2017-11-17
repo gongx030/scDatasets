@@ -1,16 +1,21 @@
 library(GenomicRanges)
 
 exprs <- function(x, ...) UseMethod('exprs', x)
-exprs.default <- Biobase::exprs
 
 #' Extract the expression matrix
 # 
 #' @author Wuming Gong, \email{gongx030@umn.edu}
+#
+#' @export
 # 
-#' @importFrom GenomicRanges values
+#' @import GenomicRanges
+#
 exprs.Expression <- function(gene) GenomicRanges::values(gene$gr)[['expression']]
 
 #' Process the scRNA-seq data matrix
+#'
+#' @export
+#'
 preprocess2 <- function(X, min.expressed.gene = 2000, min.expressed.cell = 2, max.expressed.ratio = 0.9, normalize.by.size.effect = TRUE){
 
 	M0 <- ncol(X) 
