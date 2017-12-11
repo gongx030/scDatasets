@@ -32,6 +32,12 @@ data(loh)
 Loh et al. Mapping the Pairwise Choices Leading from Pluripotency to Human Bone, Heart, and Other Mesoderm Cell Types. Cell. 2016 Jul 14;166(2):451-467. ([27419872](https://www.ncbi.nlm.nih.gov/pubmed/27419872)). 
 
 ```r
+data(pollen)
+```
+Pollen et al. Low-coverage single-cell mRNA sequencing reveals cellular heterogeneity and activated signaling pathways in developing cerebral cortex. Nat Biotechnol. 2014 Oct;32(10):1053-8. ([25086649](https://www.ncbi.nlm.nih.gov/pubmed/25086649)). 
+
+
+```r
 data(trapnell)
 ```
 Trapnell et al. The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells. Nat Biotechnol. 2014 Apr;32(4):381-386. ([24658644](https://www.ncbi.nlm.nih.gov/pubmed/24658644)). 
