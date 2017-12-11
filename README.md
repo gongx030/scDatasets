@@ -23,4 +23,5 @@ A number of needed packages are installed in this process.
 | pollen | scRNA-seq | count | Pollen et al. Low-coverage single-cell mRNA sequencing reveals cellular heterogeneity and activated signaling pathways in developing cerebral cortex. Nat Biotechnol. 2014 Oct;32(10):1053-8. ([25086649](https://www.ncbi.nlm.nih.gov/pubmed/25086649)).  |
 | trapnell | scRNA-seq | FPKM | Trapnell et al. The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells. Nat Biotechnol. 2014 Apr;32(4):381-386. ([24658644](https://www.ncbi.nlm.nih.gov/pubmed/24658644)). |
 | usoskin | scRNA-seq | FPKM | Usoskin et al. Unbiased classification of sensory neuron types by large-scale single-cell RNA sequencing. Nat Neurosci. 2015 Jan;18(1):145-53. ([25420068](https://www.ncbi.nlm.nih.gov/pubmed/25420068)). |
+| blakeley | scRNA-seq | count | Blakeley et al. Defining the three cell lineages of the human blastocyst by single-cell RNA-seq. Development. 2015 Oct 15;142(20):3613.  ([26487783](https://www.ncbi.nlm.nih.gov/pubmed/26487783)). |
 
