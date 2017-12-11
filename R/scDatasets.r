@@ -1,16 +1,62 @@
-library(GenomicRanges)
+library(SummarizedExperiment)
 
-exprs <- function(x, ...) UseMethod('exprs', x)
+#' scDatasets: Collections of processed single cell sequencing datasets
+#'
+#' Collections of processed single cell sequencing datasets
+#'
+#' @import SummarizedExperiment
+#' @docType package
+#' @name scDatasets
+NULL
+# > NULL
 
-#' Extract the expression matrix
-# 
-#' @author Wuming Gong, \email{gongx030@umn.edu}
-#
-#' @export
-# 
-#' @import GenomicRanges
-#
-exprs.Expression <- function(gene) GenomicRanges::values(gene$gr)[['expression']]
+#' guo
+#'
+#' Resolution of Cell Fate Decisions Revealed by Single-Cell Gene Expression Analysis 
+#' from Zygote to Blastocyst
+#' @docType data
+#' @keywords datasets
+#' @name guo
+#' @usage data(guo)
+#' @examples
+#' data(guo)
+NULL
+
+#' loh
+#'
+#' 
+#' Mapping the Pairwise Choices Leading from Pluripotency to Human Bone, Heart, and Other Mesoderm Cell Types
+#' @docType data
+#' @keywords datasets
+#' @name loh 
+#' @usage data(loh)
+#' @examples
+#' data(loh)
+NULL
+
+#' trapnell
+#'
+#'
+#' Single cell RNA-seq of human myoblast differentiation
+#' @docType data
+#' @keywords datasets
+#' @name trapnell
+#' @usage data(trapnell)
+#' @examples
+#' data(trapnell)
+NULL
+
+#' guo2
+#'
+#'
+#' Single cell RNA-seq of the development of human primordial germ cells (PGC) and neighboring somatic cells from weeks 4 to 19 post-gestation
+#' @docType data
+#' @keywords datasets
+#' @name guo2
+#' @usage data(guo2)
+#' @examples
+#' data(guo2)
+NULL
 
 #' Process the scRNA-seq data matrix
 #'
