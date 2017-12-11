@@ -83,6 +83,18 @@ NULL
 #' data(usoskin)
 NULL
 
+#' blakeley
+#'
+#' Single-Cell RNA-seq Defines the Three Cell Lineages of the Human Blastocyst
+#' 
+#' @docType data
+#' @keywords datasets
+#' @name usoskin
+#' @usage data(blakeley)
+#' @examples
+#' data(blakeley)
+NULL
+
 #' Process the scRNA-seq data matrix
 #'
 #' @export
