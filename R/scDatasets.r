@@ -58,6 +58,19 @@ NULL
 #' data(guo2)
 NULL
 
+#' pollen
+#'
+#'
+#' Low-coverage single-cell mRNA sequencing reveals cellular heterogeneity 
+#' and activated signaling pathways in developing cerebral cortex
+#' @docType data
+#' @keywords datasets
+#' @name pollen
+#' @usage data(pollen)
+#' @examples
+#' data(pollen)
+NULL
+
 #' Process the scRNA-seq data matrix
 #'
 #' @export
