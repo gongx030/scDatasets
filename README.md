@@ -18,7 +18,7 @@ A number of needed packages are installed in this process.
 ```r
 data(guo)
 ```
-Type: single cell PCR
+Type: single cell PCR<br />
 Unit: exp(-Ct)
 Guo et al. Resolution of cell fate decisions revealed by single-cell gene expression analysis from zygote to blastocyst. Dev Cell. 2010 Apr 20;18(4):675-85. ([20412781](https://www.ncbi.nlm.nih.gov/pubmed/20412781)). 
 
