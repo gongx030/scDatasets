@@ -71,6 +71,18 @@ NULL
 #' data(pollen)
 NULL
 
+#' usoskin
+#'
+#'
+#' RNA-Seq of single cells from the mouse lumbar dorsal root ganglion
+#' @docType data
+#' @keywords datasets
+#' @name usoskin
+#' @usage data(usoskin)
+#' @examples
+#' data(usoskin)
+NULL
+
 #' Process the scRNA-seq data matrix
 #'
 #' @export
