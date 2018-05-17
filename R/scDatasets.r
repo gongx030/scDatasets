@@ -99,13 +99,13 @@ NULL
 #'
 #' @export
 #'
-preprocess2 <- function(X, min.expressed.gene = 2000, min.expressed.cell = 2, max.expressed.ratio = 0.9, normalize.by.size.effect = TRUE){
+preprocess <- function(X, min.expressed.gene = 2000, min.expressed.cell = 2, max.expressed.ratio = 1, normalize.by.size.effect = FALSE){
 
 	M0 <- ncol(X) 
 	N0 <- nrow(X)
 
-	cat(sprintf('[%s] number of input cells(nrow(X))=%.d\n', Sys.time(), N0))
-	cat(sprintf('[%s] number of input genes(ncol(X))=%.d\n', Sys.time(), M0))
+	cat(sprintf('[%s] number of input genes(nrow(X))=%.d\n', Sys.time(), N0))
+	cat(sprintf('[%s] number of input cells(ncol(X))=%.d\n', Sys.time(), M0))
 	X <- X[, Matrix::colSums(X > 1) >= min.expressed.gene, drop = FALSE]
 	M <- ncol(X)
 	cat(sprintf('[%s] number of input cells that express at least %d genes=%.d\n', Sys.time(), min.expressed.gene, M))
