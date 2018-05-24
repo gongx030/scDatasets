@@ -2,3 +2,4 @@
 
 export(preprocess)
 import(SummarizedExperiment)
+importClassesFrom(SummarizedExperiment,SummarizedExperiment)

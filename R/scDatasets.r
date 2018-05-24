@@ -1,14 +1,12 @@
-library(SummarizedExperiment)
-
 #' scDatasets: Collections of processed single cell sequencing datasets
 #'
 #' Collections of processed single cell sequencing datasets
 #'
 #' @import SummarizedExperiment
+#' @importClassesFrom SummarizedExperiment SummarizedExperiment
 #' @docType package
 #' @name scDatasets
 NULL
-# > NULL
 
 #' guo
 #'
