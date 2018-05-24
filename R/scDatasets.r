@@ -93,10 +93,35 @@ NULL
 #' data(blakeley)
 NULL
 
-#' Process the scRNA-seq data matrix
+
+#' preprocess
+#'
+#' A function for preprocessing gene expression matrix.
+#'
+#' @param X Gene expression matrix (Gene by Cell). 
+#' @param min.expressed.gene Cell level filtering criteria. For a given cell, if the number of expressed genes are less than min.expressed.gene, we filter it out.  
+#' @param min.expressed.cell Gene level filtering criteria. For a given gene, if the number of expressed cells are less than min.expressed.cell, we filter it out.  
+#' @param max.expressed.ratio Gene level filtering criteria. For a given gene, if the ratio of expressed cells are larger than max.expressed.ratio, we filter it out.
+#' @param normalize.by.size.effect Normaize using size factor.
+#' @return Filtered gene expression matrix
 #'
 #' @export
 #'
+#' @author Wuming Gong and Il-Youp Kwak
+#'
+#' @references
+#' Wuming Gong, Il-Youp Kwak, Pruthvi Pota, Kaoko Koyano-Nakagawa and Daniel J. Garry (2017)
+#' DrImpute: Imputing dropout eveents in single cell RNA sequencing data
+#' 
+#' @examples
+#'
+#' library(scDatasets)
+#' library(SummarizedExperiment)
+#' data(usoskin)
+#' X <- assays(usoskin)$count
+#' X <- preprocess(X, min.expressed.gene = 0)
+#' 
+#' @seealso \code{\link{DrImpute}}
 preprocess <- function(X, min.expressed.gene = 2000, min.expressed.cell = 2, max.expressed.ratio = 1, normalize.by.size.effect = FALSE){
 
 	M0 <- ncol(X) 
@@ -120,5 +145,5 @@ preprocess <- function(X, min.expressed.gene = 2000, min.expressed.cell = 2, max
 
 	as.matrix(X)
 
-} # end of preprocess2
+} # end of preprocess
 
