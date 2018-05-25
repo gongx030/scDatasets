@@ -93,6 +93,18 @@ NULL
 #' data(blakeley)
 NULL
 
+#' iPSC
+#'
+#' Single-Cell RNA-seq of iPSC-CM differentiations at iPSC stage (D0), differentiation day 6 (D6),
+#' D10, D30 and D60. 
+#' 
+#' @docType data
+#' @keywords datasets
+#' @name iPSC
+#' @usage data(iPSC)
+#' @examples
+#' data(iPSC)
+NULL
 
 #' preprocess
 #'
