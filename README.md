@@ -15,6 +15,16 @@ A number of needed packages are installed in this process.
 
 ## 2. Datasets
 
+The scRNA-seq dataset could be loaded in this way:
+```r
+library(scDatasets)
+library(SummarizedExperiment)
+data(pollen)
+pollen
+```
+
+Here summarizes the name, data type, expression unit and source of included datasets:
+
 | Name | Data_Type | Expression_Unit | Source |
 | :---: | :---: | :---: | :--- |
 | guo | scPCR | exp(-Ct) | Guo et al. Resolution of cell fate decisions revealed by single-cell gene expression analysis from zygote to blastocyst. Dev Cell. 2010 Apr 20;18(4):675-85. ([20412781](https://www.ncbi.nlm.nih.gov/pubmed/20412781)). |
