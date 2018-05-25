@@ -24,4 +24,5 @@ A number of needed packages are installed in this process.
 | trapnell | scRNA-seq | FPKM | Trapnell et al. The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells. Nat Biotechnol. 2014 Apr;32(4):381-386. ([24658644](https://www.ncbi.nlm.nih.gov/pubmed/24658644)). |
 | usoskin | scRNA-seq | FPKM | Usoskin et al. Unbiased classification of sensory neuron types by large-scale single-cell RNA sequencing. Nat Neurosci. 2015 Jan;18(1):145-53. ([25420068](https://www.ncbi.nlm.nih.gov/pubmed/25420068)). |
 | blakeley | scRNA-seq | count | Blakeley et al. Defining the three cell lineages of the human blastocyst by single-cell RNA-seq. Development. 2015 Oct 15;142(20):3613.  ([26487783](https://www.ncbi.nlm.nih.gov/pubmed/26487783)). |
+| iPSC | scRNA-seq | count | Single-Cell RNA-seq of iPSC-CM differentiations at iPSC stage (D0), differentiation day 6 (D6), D10, D30 and D60. |
 
