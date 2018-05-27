@@ -95,7 +95,7 @@ NULL
 
 #' iPSC
 #'
-#' Single-Cell RNA-seq of iPSC-CM differentiations at iPSC stage (D0), differentiation day 6 (D6),
+#' Single-cell RNA-seq of iPSC-CM differentiations at iPSC stage (D0), differentiation day 6 (D6),
 #' D10, D30 and D60. 
 #' 
 #' @docType data
@@ -104,6 +104,18 @@ NULL
 #' @usage data(iPSC)
 #' @examples
 #' data(iPSC)
+NULL
+
+#' petropoulos
+#'
+#' Single-cell RNA-Seq of human preimplantation embryo development at E3, E4, E5, E6 and E7
+#' 
+#' @docType data
+#' @keywords datasets
+#' @name petropoulos
+#' @usage data(petropoulos)
+#' @examples
+#' data(petropoulos)
 NULL
 
 #' preprocess

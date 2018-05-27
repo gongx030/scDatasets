@@ -8,7 +8,7 @@
 data(iPSC)
 }
 \description{
-Single-Cell RNA-seq of iPSC-CM differentiations at iPSC stage (D0), differentiation day 6 (D6),
+Single-cell RNA-seq of iPSC-CM differentiations at iPSC stage (D0), differentiation day 6 (D6),
 D10, D30 and D60.
 }
 \examples{
