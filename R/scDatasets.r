@@ -118,6 +118,18 @@ NULL
 #' data(petropoulos)
 NULL
 
+#' deng
+#'
+#' Single-cell RNA-seq of mouse embryonic development from zygote to late blastocyst stage
+#' 
+#' @docType data
+#' @keywords datasets
+#' @name deng
+#' @usage data(deng)
+#' @examples
+#' data(deng)
+NULL
+
 #' preprocess
 #'
 #' A function for preprocessing gene expression matrix.
