@@ -35,5 +35,8 @@ Here summarizes the name, data type, expression unit and source of included data
 | usoskin | scRNA-seq | FPKM | Usoskin et al. Unbiased classification of sensory neuron types by large-scale single-cell RNA sequencing. Nat Neurosci. 2015 Jan;18(1):145-53. ([25420068](https://www.ncbi.nlm.nih.gov/pubmed/25420068)). |
 | blakeley | scRNA-seq | count | Blakeley et al. Defining the three cell lineages of the human blastocyst by single-cell RNA-seq. Development. 2015 Oct 15;142(20):3613.  ([26487783](https://www.ncbi.nlm.nih.gov/pubmed/26487783)). |
 | iPSC | scRNA-seq | count | Single-Cell RNA-seq of iPSC-CM differentiations at iPSC stage (D0), differentiation day 6 (D6), D10, D30 and D60. |
-| petropoulos | scRNA-seq | count | Single-cell RNA-Seq of human preimplantation embryo development at E3, E4, E5, E6 and E7 |
+| petropoulos | scRNA-seq | count | Single-Cell RNA-Seq Reveals Lineage and X Chromosome Dynamics in Human
+Preimplantation Embryos. Cell. 2016 May 5;165(4):1012-26. |
+| deng | scRNA-seq | count | Deng et al. Single-cell RNA-seq reveals dynamic, random monoallelic gene expression in
+mammalian cells. Science. 2014 Jan 10;343(6167):193-6. |
 
