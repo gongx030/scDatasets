@@ -36,7 +36,7 @@ Here summarizes the name, data type, expression unit and source of included data
 | blakeley | scRNA-seq | count | Blakeley et al. Defining the three cell lineages of the human blastocyst by single-cell RNA-seq. Development. 2015 Oct 15;142(20):3613.  ([26487783](https://www.ncbi.nlm.nih.gov/pubmed/26487783)). |
 | iPSC | scRNA-seq | count | Single-Cell RNA-seq of iPSC-CM differentiations at iPSC stage (D0), differentiation day 6 (D6), D10, D30 and D60. |
 | petropoulos | scRNA-seq | count | Single-Cell RNA-Seq Reveals Lineage and X Chromosome Dynamics in Human
-Preimplantation Embryos. Cell. 2016 May 5;165(4):1012-26. |
+Preimplantation Embryos. Cell. 2016 May 5;165(4):1012-26. ([27062923](https://www.ncbi.nlm.nih.gov/pubmed/27062923)). |
 | deng | scRNA-seq | count | Deng et al. Single-cell RNA-seq reveals dynamic, random monoallelic gene expression in
-mammalian cells. Science. 2014 Jan 10;343(6167):193-6. |
+mammalian cells. Science. 2014 Jan 10;343(6167):193-6. ([24408435](https://www.ncbi.nlm.nih.gov/pubmed/24408435)). |
 
